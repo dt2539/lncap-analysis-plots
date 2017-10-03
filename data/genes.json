@@ -1,0 +1,452 @@
+[
+    {
+        "color": "white", 
+        "id": "TIMELESS", 
+        "len": 11, 
+        "label": "TIMELESS"
+    }, 
+    {
+        "color": "white", 
+        "id": "RFC4", 
+        "len": 11, 
+        "label": "RFC4"
+    }, 
+    {
+        "color": "white", 
+        "id": "ACTL6B", 
+        "len": 11, 
+        "label": "ACTL6B"
+    }, 
+    {
+        "color": "white", 
+        "id": "WHSC1", 
+        "len": 11, 
+        "label": "WHSC1"
+    }, 
+    {
+        "color": "white", 
+        "id": "ZNF367", 
+        "len": 11, 
+        "label": "ZNF367"
+    }, 
+    {
+        "color": "white", 
+        "id": "FOXM1", 
+        "len": 11, 
+        "label": "FOXM1"
+    }, 
+    {
+        "color": "white", 
+        "id": "MCM4", 
+        "len": 11, 
+        "label": "MCM4"
+    }, 
+    {
+        "color": "white", 
+        "id": "HMGB1", 
+        "len": 11, 
+        "label": "HMGB1"
+    }, 
+    {
+        "color": "white", 
+        "id": "TOP2A", 
+        "len": 11, 
+        "label": "TOP2A"
+    }, 
+    {
+        "color": "white", 
+        "id": "CENPF", 
+        "len": 11, 
+        "label": "CENPF"
+    }, 
+    {
+        "color": "white", 
+        "id": "HMGB2", 
+        "len": 11, 
+        "label": "HMGB2"
+    }, 
+    {
+        "color": "white", 
+        "id": "MCM7", 
+        "len": 11, 
+        "label": "MCM7"
+    }, 
+    {
+        "color": "white", 
+        "id": "DEPDC1", 
+        "len": 11, 
+        "label": "DEPDC1"
+    }, 
+    {
+        "color": "white", 
+        "id": "UBE2C", 
+        "len": 11, 
+        "label": "UBE2C"
+    }, 
+    {
+        "color": "white", 
+        "id": "ASF1B", 
+        "len": 11, 
+        "label": "ASF1B"
+    }, 
+    {
+        "color": "white", 
+        "id": "MDC1", 
+        "len": 11, 
+        "label": "MDC1"
+    }, 
+    {
+        "color": "white", 
+        "id": "E2F1", 
+        "len": 11, 
+        "label": "E2F1"
+    }, 
+    {
+        "color": "white", 
+        "id": "MCM3", 
+        "len": 11, 
+        "label": "MCM3"
+    }, 
+    {
+        "color": "white", 
+        "id": "ARHGEF39", 
+        "len": 11, 
+        "label": "ARHGEF39"
+    }, 
+    {
+        "color": "white", 
+        "id": "CCNA2", 
+        "len": 11, 
+        "label": "CCNA2"
+    }, 
+    {
+        "color": "white", 
+        "id": "MCM5", 
+        "len": 11, 
+        "label": "MCM5"
+    }, 
+    {
+        "color": "white", 
+        "id": "CKS2", 
+        "len": 11, 
+        "label": "CKS2"
+    }, 
+    {
+        "color": "white", 
+        "id": "MCM8", 
+        "len": 11, 
+        "label": "MCM8"
+    }, 
+    {
+        "color": "white", 
+        "id": "HELLS", 
+        "len": 11, 
+        "label": "HELLS"
+    }, 
+    {
+        "color": "white", 
+        "id": "H2AFX", 
+        "len": 11, 
+        "label": "H2AFX"
+    }, 
+    {
+        "color": "white", 
+        "id": "ILF2", 
+        "len": 11, 
+        "label": "ILF2"
+    }, 
+    {
+        "color": "white", 
+        "id": "IRF6", 
+        "len": 11, 
+        "label": "IRF6"
+    }, 
+    {
+        "color": "white", 
+        "id": "CDK4", 
+        "len": 11, 
+        "label": "CDK4"
+    }, 
+    {
+        "color": "white", 
+        "id": "CHEK1", 
+        "len": 11, 
+        "label": "CHEK1"
+    }, 
+    {
+        "color": "white", 
+        "id": "TTF2", 
+        "len": 11, 
+        "label": "TTF2"
+    }, 
+    {
+        "color": "white", 
+        "id": "STMN1", 
+        "len": 11, 
+        "label": "STMN1"
+    }, 
+    {
+        "color": "white", 
+        "id": "SIVA1", 
+        "len": 11, 
+        "label": "SIVA1"
+    }, 
+    {
+        "color": "white", 
+        "id": "PSRC1", 
+        "len": 11, 
+        "label": "PSRC1"
+    }, 
+    {
+        "color": "white", 
+        "id": "RUVBL2", 
+        "len": 11, 
+        "label": "RUVBL2"
+    }, 
+    {
+        "color": "white", 
+        "id": "NDC80", 
+        "len": 11, 
+        "label": "NDC80"
+    }, 
+    {
+        "color": "white", 
+        "id": "PCNA", 
+        "len": 11, 
+        "label": "PCNA"
+    }, 
+    {
+        "color": "white", 
+        "id": "ARHGAP6", 
+        "len": 11, 
+        "label": "ARHGAP6"
+    }, 
+    {
+        "color": "white", 
+        "id": "MSH2", 
+        "len": 11, 
+        "label": "MSH2"
+    }, 
+    {
+        "color": "white", 
+        "id": "BUB1B", 
+        "len": 11, 
+        "label": "BUB1B"
+    }, 
+    {
+        "color": "white", 
+        "id": "TCF19", 
+        "len": 11, 
+        "label": "TCF19"
+    }, 
+    {
+        "color": "white", 
+        "id": "HOXB13", 
+        "len": 11, 
+        "label": "HOXB13"
+    }, 
+    {
+        "color": "white", 
+        "id": "FEN1", 
+        "len": 11, 
+        "label": "FEN1"
+    }, 
+    {
+        "color": "white", 
+        "id": "TMPO", 
+        "len": 11, 
+        "label": "TMPO"
+    }, 
+    {
+        "color": "white", 
+        "id": "MCM6", 
+        "len": 11, 
+        "label": "MCM6"
+    }, 
+    {
+        "color": "white", 
+        "id": "SRSF2", 
+        "len": 11, 
+        "label": "SRSF2"
+    }, 
+    {
+        "color": "white", 
+        "id": "TCEAL4", 
+        "len": 11, 
+        "label": "TCEAL4"
+    }, 
+    {
+        "color": "white", 
+        "id": "PHTF2", 
+        "len": 11, 
+        "label": "PHTF2"
+    }, 
+    {
+        "color": "white", 
+        "id": "RBBP8", 
+        "len": 11, 
+        "label": "RBBP8"
+    }, 
+    {
+        "color": "white", 
+        "id": "SENP1", 
+        "len": 11, 
+        "label": "SENP1"
+    }, 
+    {
+        "color": "white", 
+        "id": "AURKA", 
+        "len": 11, 
+        "label": "AURKA"
+    }, 
+    {
+        "color": "white", 
+        "id": "ZWINT", 
+        "len": 11, 
+        "label": "ZWINT"
+    }, 
+    {
+        "color": "white", 
+        "id": "SH3RF1", 
+        "len": 11, 
+        "label": "SH3RF1"
+    }, 
+    {
+        "color": "white", 
+        "id": "WFS1", 
+        "len": 11, 
+        "label": "WFS1"
+    }, 
+    {
+        "color": "white", 
+        "id": "ATAD2", 
+        "len": 11, 
+        "label": "ATAD2"
+    }, 
+    {
+        "color": "white", 
+        "id": "ZNF613", 
+        "len": 11, 
+        "label": "ZNF613"
+    }, 
+    {
+        "color": "white", 
+        "id": "RACGAP1", 
+        "len": 11, 
+        "label": "RACGAP1"
+    }, 
+    {
+        "color": "white", 
+        "id": "SPAG5", 
+        "len": 11, 
+        "label": "SPAG5"
+    }, 
+    {
+        "color": "white", 
+        "id": "MSH6", 
+        "len": 11, 
+        "label": "MSH6"
+    }, 
+    {
+        "color": "white", 
+        "id": "EZH2", 
+        "len": 11, 
+        "label": "EZH2"
+    }, 
+    {
+        "color": "white", 
+        "id": "STMN3", 
+        "len": 11, 
+        "label": "STMN3"
+    }, 
+    {
+        "color": "white", 
+        "id": "CENPK", 
+        "len": 11, 
+        "label": "CENPK"
+    }, 
+    {
+        "color": "white", 
+        "id": "PSIP1", 
+        "len": 11, 
+        "label": "PSIP1"
+    }, 
+    {
+        "color": "white", 
+        "id": "IQGAP3", 
+        "len": 11, 
+        "label": "IQGAP3"
+    }, 
+    {
+        "color": "white", 
+        "id": "CNIH2", 
+        "len": 11, 
+        "label": "CNIH2"
+    }, 
+    {
+        "color": "white", 
+        "id": "RAB18", 
+        "len": 11, 
+        "label": "RAB18"
+    }, 
+    {
+        "color": "white", 
+        "id": "PA2G4", 
+        "len": 11, 
+        "label": "PA2G4"
+    }, 
+    {
+        "color": "white", 
+        "id": "PHF19", 
+        "len": 11, 
+        "label": "PHF19"
+    }, 
+    {
+        "color": "white", 
+        "id": "CDH1", 
+        "len": 11, 
+        "label": "CDH1"
+    }, 
+    {
+        "color": "white", 
+        "id": "CDK2", 
+        "len": 11, 
+        "label": "CDK2"
+    }, 
+    {
+        "color": "white", 
+        "id": "MCM2", 
+        "len": 11, 
+        "label": "MCM2"
+    }, 
+    {
+        "color": "white", 
+        "id": "MXD3", 
+        "len": 11, 
+        "label": "MXD3"
+    }, 
+    {
+        "color": "white", 
+        "id": "ARHGAP11A", 
+        "len": 11, 
+        "label": "ARHGAP11A"
+    }, 
+    {
+        "color": "white", 
+        "id": "CBX3", 
+        "len": 11, 
+        "label": "CBX3"
+    }, 
+    {
+        "color": "white", 
+        "id": "PTTG1", 
+        "len": 11, 
+        "label": "PTTG1"
+    }, 
+    {
+        "color": "white", 
+        "id": "BRIP1", 
+        "len": 11, 
+        "label": "BRIP1"
+    }
+]
