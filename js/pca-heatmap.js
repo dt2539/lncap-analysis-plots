@@ -49,6 +49,15 @@ function drawCircos(error, genes, combinedResults, ppiPredictions) {
         value: d.gene_symbol
       };
     })
+    drugCounts = combinedResults.map(function(d) {
+      return {
+        block_id: d.gene_symbol,
+        start: 0,
+        end: 11,
+        value: parseInt(d.drugs),
+        label: d.drug_labels
+      };
+    })
     PPI = ppiPredictions.map(function (d) {
       return {
         source: {
@@ -110,6 +119,16 @@ function drawCircos(error, genes, combinedResults, ppiPredictions) {
         max: maxNES,
         tooltipContent: function (d) {
           return d.block_id+' | Resistant vs. Residual LNCaP<br>VIPER Score = '+d.value.toFixed(2);
+        }
+      })
+      .heatmap('drugCounts', drugCounts, {
+        innerRadius: 1.35,
+        outerRadius: 1.40,
+        logScale: false,
+        color: 'Greys',
+        max: 15,
+        tooltipContent: function (d) {
+          return d.block_id+' | Targeted by '+d.value+' drugs<br>'+d.label;
         }
       })
       .histogram('MOA', MOA, {
