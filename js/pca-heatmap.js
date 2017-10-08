@@ -6,9 +6,6 @@ function drawCircos(error, genes, combinedResults, ppiPredictions) {
         width: width,
         height: width
     });
-  FCs = []
-  $.each(combinedResults, function(i, elem) { FCs.push(Math.abs(elem.logfc)); });
-  maxFC = Math.max.apply(null, FCs);
 
   NESs = []
   $.each(combinedResults, function(i, elem) { NESs.push(Math.abs(elem.nes)); });
@@ -18,12 +15,20 @@ function drawCircos(error, genes, combinedResults, ppiPredictions) {
   $.each(combinedResults, function(i, elem) { MOAs.push(Math.abs(elem.moa)); });
   maxMOA = Math.max.apply(null, MOAs);
 
-    logFC = combinedResults.map(function(d) {
+    blackBg = combinedResults.map(function(d) {
       return {
         block_id: d.gene_symbol,
         start: 0,
         end: 11,
-        value: -parseFloat(d.logfc)
+        value: 1
+      };
+    })
+    whiteBg = combinedResults.map(function(d) {
+      return {
+        block_id: d.gene_symbol,
+        start: 0,
+        end: 11,
+        value: 0
       };
     })
     NES = combinedResults.map(function(d) {
@@ -99,20 +104,23 @@ function drawCircos(error, genes, combinedResults, ppiPredictions) {
           return d.source.id + ' ➤ ' + d.target.id + '<br>PrePPI p = ' + d.value
         }
       })
-      .heatmap('logFC', logFC, {
+      .heatmap('blackBg', blackBg, {
         innerRadius: 0.99,
         outerRadius: 1.35,
-        logScale: false,
-        color: 'RdBu',
-        min: -maxFC,
-        max: maxFC,
-        tooltipContent: function (d) {
-          return d.block_id+' | Resistant vs. Residual LNCaP<br>logFC = '+-d.value.toFixed(2);
-        }
+        color: 'Greys',
+        min: 0,
+        max: 1,
+      })
+      .heatmap('whiteBg', whiteBg, {
+        innerRadius: 0.99,
+        outerRadius: 1.35,
+        color: 'Greys',
+        min: 0,
+        max: 1,
       })
       .heatmap('NES', NES, {
         innerRadius: 1.35,
-        outerRadius: 1.65,
+        outerRadius: 1.70,
         logScale: false,
         color: 'PuOr',
         min: -maxNES,
@@ -121,19 +129,9 @@ function drawCircos(error, genes, combinedResults, ppiPredictions) {
           return d.block_id+' | Resistant vs. Residual LNCaP<br>VIPER Score = '+d.value.toFixed(2);
         }
       })
-      .heatmap('drugCounts', drugCounts, {
-        innerRadius: 1.35,
-        outerRadius: 1.40,
-        logScale: false,
-        color: 'Greys',
-        max: 15,
-        tooltipContent: function (d) {
-          return d.block_id+' | Targeted by '+d.value+' drugs<br>'+d.label;
-        }
-      })
       .histogram('MOA', MOA, {
         innerRadius: 1.65,
-        outerRadius: 1.90,
+        outerRadius: 2.00,
         logScale: false,
         color: 'Blues',
         min: -1,
@@ -143,7 +141,7 @@ function drawCircos(error, genes, combinedResults, ppiPredictions) {
         }
       })
       .text('geneSymbol', geneSymbol, {
-        innerRadius: 1.03,
+        innerRadius: 1.02,
         outerRadius: 1.35,
         style: {
             'font-size': 10,
